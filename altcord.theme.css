@@ -1,0 +1,33 @@
+/**
+  * @altcord 
+  * @version 1.0
+  * @author @wihal
+  * @source https://github.com/wihal/altcord
+  * @description A discord Theme that reverts some changes made by discord.
+*/
+@import url("https://wihal.github.io/altcord/src/main.css");
+
+/* Changeable Variables */
+:root {
+    --guildbar-avatar-size: 48px;
+    --blob-scale: 48;
+
+    --guildbar-folder-size: var(--guildbar-avatar-size);
+    --folder-blob-scale: var(--blob-scale);
+
+    --custom-guild-list-padding: 12px;
+    --custom-guild-list-width: calc(max(var(--guildbar-avatar-size), var(--guildbar-folder-size)) + var(--custom-guild-list-padding) * 2);
+
+    --badge-offset: calc(var(--guildbar-avatar-size) - 40px);
+    --custom-folder-item-animation-duration: 150ms;
+
+    --custom-guild-sidebar-width: 240px;
+
+    /* Theme Colors remove these if you don't want them */
+    --theme-base-color: #212121;
+    --theme-base-color-hsl: #2C2C2C;
+    --theme-base-color-amount: 100%;
+    --theme-text-color: #ffffffaa;
+    --theme-text-color-amount: 100%;
+    --theme-text-color-hsl: #ffffffaa;
+}

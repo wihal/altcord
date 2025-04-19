@@ -1,0 +1,12 @@
+/*
+  Detailed Timestamp - By krekevyks1337 (237616896948699136)
+  Message Link: https://discord.com/channels/1015060230222131221/1028106818368589824/1354458308714696816
+*/
+span[class*="timestampInline_"] time::before {
+    content: attr(aria-label);
+    font-size: 12px;
+}
+
+span[class*="timestampInline_"] {
+    font-size: 0px !important;
+}

@@ -1,0 +1,10 @@
+/* 
+    No Super Reactions - By ukriu (586962558435590154) 
+    Message Link: https://discord.com/channels/1015060230222131221/1028106818368589824/1363086296645369957
+*/
+[class*="reaction"][class*="reactionMe"] {border-color: var(--brand-experiment) !important; background-color: var(--brand-experiment-15a) !important;}
+[class*="reactionCount"] {color: var(--interactive-normal) !important;}
+[class*="effectsWrapper"] {display: none;}
+[class^="burstGlow"], [class*="reaction_"], [class*="reaction"][class*="shakeReaction"] {box-shadow: none !important;  animation: none;}
+[class*="reaction_"] {background: var(--background-secondary) !important;}
+[class*="hideEmoji"] {opacity: 1;}

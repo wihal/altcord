@@ -1,0 +1,15 @@
+/*
+    Revert User Area - By evie (evie.flowers/333219489955184643)
+    Message Link: https://discord.com/channels/1015060230222131221/1028106818368589824/1361443579905445898
+*/
+.visual-refresh div[class^="sidebar_"] section[class^="panels_"] {
+    width: calc(var(--custom-guild-sidebar-width) - var(--custom-guild-list-width) + 1px);
+    left: var(--custom-guild-list-width);
+    bottom: 0px;
+    border-radius: 0px;
+    border: none;
+}
+
+.visual-refresh nav[class*=guilds_] {
+    margin-bottom: unset;
+}

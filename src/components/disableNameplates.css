@@ -1,0 +1,9 @@
+/*
+    Disable Nameplates - By pointy (797721161504653332)
+    Message Link: https://discord.com/channels/1015060230222131221/1028106818368589824/1354411094764163196
+*/
+
+[class*='membersGroup']:has([role=button]),
+[class*='member'] [class*='container']:has([class*='badges']) {
+    display: none;
+}

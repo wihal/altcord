@@ -1,0 +1,37 @@
+/*
+    VC Membercount - By Abbysssal (511178002277597185)
+    Message Link: https://discord.com/channels/1015060230222131221/1028106818368589824/1362371508902690896 
+*/
+.vc-membercount-member-list {
+    justify-content: space-between !important;
+    margin-top: 0 !important;
+    padding-inline: 0 !important;
+    border-bottom: 1.5px solid var(--border-subtle);
+    border-right: 1.5px solid var(--border-subtle);
+    margin-bottom: -16px !important;
+  
+    .vc-membercount-online-dot, .vc-membercount-total-dot { margin: 0 !important; }
+  
+    > div {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      padding: 6px 0;
+      
+      &::after {
+        display: inline;
+        font-size: 0.8em;
+        margin-top: 2px;
+      }
+      &:nth-child(1) { margin-left: 20px; }
+      &:nth-child(1)::after {
+        content: "online";
+        color: var(--color-online);
+      }
+      &:nth-child(3) { padding-right: 20px; }
+      &:nth-child(3)::after {
+        content: "total";
+        color: var(--color-total);
+      }
+    }
+  }

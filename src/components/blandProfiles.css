@@ -1,0 +1,23 @@
+/* 
+    bland Profiles - By ukriu (586962558435590154) 
+    Message Link: https://discord.com/channels/1015060230222131221/1028106818368589824/1363086296645369957
+*/
+[class*="avatarDecoration"],
+[class*="profileEffects"] {
+    display: none;
+}
+
+[class*="custom-theme-background custom-user-profile-theme"] {
+    --profile-gradient-primary-color: var(--background-surface-high) !important;
+    --profile-gradient-secondary-color: var(--background-surface-high) !important;
+    --profile-gradient-overlay-color: rgba(0, 0, 0, 0) !important;
+    --profile-gradient-button-color: var(--background-mod-subtle) !important;
+    --theme-base-color-light-hsl: unset !important;
+    --theme-base-color-light: unset !important;
+    --theme-text-color-light: unset !important;
+    --theme-base-color-dark-hsl: unset !important;
+    --theme-base-color-dark: unset !important;
+    --theme-text-color-dark: unset !important;
+    --theme-base-color-amount: unset !important;
+    --theme-text-color-amount: unset !important;
+}
