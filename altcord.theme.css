@@ -1,9 +1,13 @@
 /**
-  * @altcord 
-  * @version 1.0
-  * @author @wihal
-  * @source https://github.com/wihal/altcord
-  * @description A discord Theme that reverts some changes made by discord.
+ * @name altcord
+ * @version 1.0
+ * @description Theme to undo changes Discord made in the last few months
+ * @author wihal
+ * @authorLink https://github.com/wihal
+ * @source https://github.com/wihal/altcord
+ * @website https://wihal.github.io/altcord
+ * @updateUrl https://wihal.github.io/altcord/altcord.theme.css
+ * @invite BaM244MBNy
 */
 @import url("https://wihal.github.io/altcord/src/main.css");
 
